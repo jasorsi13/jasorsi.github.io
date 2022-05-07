@@ -4,4 +4,5 @@ excerpt: "JUSC is a student driven body in the Jadavpur University campus that h
 collection: portfolio
 ---
 <img src='https://github.com/jasorsi13/jasorsi.github.io/blob/master/images/jusc_logo1.png'>
+<br/>
 sdvjwhejkfbwkevjwhe wkjevkjweb wkejgbwj
