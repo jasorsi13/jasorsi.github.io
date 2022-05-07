@@ -14,5 +14,5 @@ Description: A two dimensional space scanner capable of reconstructing the real 
 ![alt text](https://github.com/jasorsi13/jasorsi.github.io/blob/master/images/Capture1.PNG?raw=true)" <br/>
 ![alt text](https://github.com/jasorsi13/jasorsi.github.io/blob/master/images/Capture2.PNG?raw=true)" <br/>
 
-https://github.com/jasorsi13/jasorsi.github.io/blob/master/images/Capture1.PNG
 Video demo: [Reconstruction of a Dynamic Azimuth Plane using Ultrasonic Wave Echos](https://www.youtube.com/watch?v=uXxN-u29SSY)
+
