@@ -12,19 +12,23 @@ Processing is a flexible software sketchbook and a language for learning how to 
  1.[Arcade Snake Game](https://www.youtube.com/watch?v=0NfSYxBsebc)
   * Description : Snake is the common name for a video game concept where the player maneuvers a line which grows
 in length, with the line itself being a primary obstacle.
-
+   ![alt text](https://github.com/jasorsi13/jasorsi.github.io/blob/master/images/Capture4.PNG?raw=true)" <br/>
 
  2.[Star Tail from The Star Wars Movie](https://www.youtube.com/watch?v=FJKGoH7PuQw)
   * Description: Simulation of hyperlapse through the galaxy used in the star wars movie
+   ![alt text](https://github.com/jasorsi13/jasorsi.github.io/blob/master/images/Capture5.PNG?raw=true)" <br/>
 
  3.[Simulation of the The Chain dynamics](https://www.youtube.com/watch?v=Cj7aADEBEFI)
   * Description: Simulating a chain made of quantized parts
+   ![alt text](https://github.com/jasorsi13/jasorsi.github.io/blob/master/images/Capture6.PNG?raw=true)" <br/>
 
  4.[Simulation of Flying Over a Terrain Developed From Perlin Noise Model](https://www.youtube.com/watch?v=XW554S2kY9c)
   * Description: Flying over a randomly generated infinite terrain based of perlin noise models
+   ![alt text](https://github.com/jasorsi13/jasorsi.github.io/blob/master/images/Capture7.PNG?raw=true)" <br/>
 
  5.[Arcade Ping Pong Game](https://www.youtube.com/watch?v=MkgpB4y-gN4)
   * Description: Ping Pong is an old arcade game with the theme of table tennis where the player
 reflects the ball to score points and has to prevent the ball falling from the screen.
+   ![alt text](https://github.com/jasorsi13/jasorsi.github.io/blob/master/images/Capture8.PNG?raw=true)" <br/>
 
 
