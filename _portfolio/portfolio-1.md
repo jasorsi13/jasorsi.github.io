@@ -1,8 +1,7 @@
 ---
 title: "Independent Contributor for The Processing Community"
-excerpt: "Processing is a free graphical library and integrated development environment <br/>
-![alt text](https://github.com/jasorsi13/jasorsi.github.io/blob/master/images/Processing_2021_logo.png?raw=true)
-
+excerpt: "Processing is a free graphical library and integrated development environment. <br/>
+![alt text](https://github.com/jasorsi13/jasorsi.github.io/blob/master/images/Processing_2021_logo.png?raw=true)"
 collection: portfolio
 ---
 ![alt text](https://github.com/jasorsi13/jasorsi.github.io/blob/master/images/Processing_2021_logo.png?raw=true)
