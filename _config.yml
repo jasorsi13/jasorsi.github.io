@@ -86,7 +86,7 @@ author:
   location         : "Indiana, USA"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=U1gkUkcAAAAJ"
   email            : ghosh117@purdue.edu, jasorsi13@gmail.com
   researchgate     : "https://www.researchgate.net/profile/Jasorsi-Ghosh"
   uri              : #"https://jasorsi13.github.io/jasorsi.github.io/"
