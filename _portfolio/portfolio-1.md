@@ -13,11 +13,5 @@ Processing is a flexible software sketchbook and a language for learning how to 
 Description : Snake is the common name for a video game concept where the player maneuvers a line which grows
 in length, with the line itself being a primary obstacle.
 Demo: 
-<object width="425" height="350">
-  <param name="movie" value="http://www.youtube.com/user/wwwLoveWatercom?v=BTRN1YETpyg" />
-  <param name="wmode" value="transparent" />
-  <embed src="http://www.youtube.com/user/wwwLoveWatercom?v=BTRN1YETpyg"
-         type="application/x-shockwave-flash"
-         wmode="transparent" width="425" height="350" />
-</object>
- 
+
+more details is [here](https://docs.google.com/viewer?url=${link_to_raw_pdf})
