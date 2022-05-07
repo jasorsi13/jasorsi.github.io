@@ -7,7 +7,7 @@ collection: portfolio
 Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts. Since 2001, Processing has promoted software literacy within the visual arts and visual literacy within technology. There are tens of thousands of students, artists, designers, researchers, and hobbyists who use Processing for learning and prototyping. More details can be found in [this link](https://processing.org/).
  
  
- Highlights of Major Works in The Processing Community can be found [here](https://drive.google.com/file/d/1tYBYEw0zYMRMRT6odYEQNun0VvspLWQ3/view?usp=sharing) and on my [Youtube channel](https://www.youtube.com/channel/UCxPJzmfpyeMEMYQzAW-XeIw?app=desktop). We were restricted in computational power, thereby were not able to render and record the complex models at play. Folllowing are a few simple ones rolling.
+ Highlights of Major Works in The Processing Community can be found [here](https://github.com/jasorsi13/jasorsi.github.io/blob/master/files/The%20Processing%20Projects.pdf) and on my [Youtube channel](https://www.youtube.com/channel/UCxPJzmfpyeMEMYQzAW-XeIw?app=desktop). We were restricted in computational power, thereby were not able to render and record the complex models at play. Folllowing are a few simple ones rolling.
  
 1. [Arcade Snake Game](https://www.youtube.com/watch?v=0NfSYxBsebc)
 Description : Snake is the common name for a video game concept where the player maneuvers a line which grows
