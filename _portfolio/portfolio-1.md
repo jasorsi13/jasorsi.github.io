@@ -7,4 +7,17 @@ collection: portfolio
 Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts. Since 2001, Processing has promoted software literacy within the visual arts and visual literacy within technology. There are tens of thousands of students, artists, designers, researchers, and hobbyists who use Processing for learning and prototyping.
  
  
+ Highlights of Major Works in The Processing Community
+ 
+ 1. Arcade Snake Game
+Description : Snake is the common name for a video game concept where the player maneuvers a line which grows
+in length, with the line itself being a primary obstacle.
+Demo: 
+<object width="425" height="350">
+  <param name="movie" value="http://www.youtube.com/user/wwwLoveWatercom?v=BTRN1YETpyg" />
+  <param name="wmode" value="transparent" />
+  <embed src="http://www.youtube.com/user/wwwLoveWatercom?v=BTRN1YETpyg"
+         type="application/x-shockwave-flash"
+         wmode="transparent" width="425" height="350" />
+</object>
  
