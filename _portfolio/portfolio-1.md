@@ -14,4 +14,4 @@ Description : Snake is the common name for a video game concept where the player
 in length, with the line itself being a primary obstacle.
 Demo: 
 
-more details is [here](https://docs.google.com/viewer?url=${link_to_raw_pdf})
+more details is [here](https://docs.google.com/viewer?url=${https://github.com/jasorsi13/jasorsi.github.io/blob/master/files/paper1.pdf})
