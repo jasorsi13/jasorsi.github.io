@@ -6,6 +6,7 @@ excerpt: 'Mukherjee,A., Ghosh,J., Das,S.D., Chowdhury,A.S. & Saha,S.K.'
 date: 25 November 2019
 venue: 'International Conference on Pattern Recognition and Machine Intelligence, LNCS 11941, pp. 415-423'
 paperurl: 'https://link.springer.com/chapter/10.1007/978-3-030-34869-4_45'
+citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 
 Keywords: Unsupervised Surface Segmentation · 3D Point Cloud Processing · Lidar Data · Meshing
 
