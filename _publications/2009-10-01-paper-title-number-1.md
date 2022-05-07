@@ -8,8 +8,11 @@ venue: 'International Conference on Pattern Recognition and Machine Intelligence
 paperurl: 'https://link.springer.com/chapter/10.1007/978-3-030-34869-4_45'
 citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
-Keywords: Unsupervised Surface Segmentation · 3D Point Cloud Processing · Lidar Data · Meshing
+Keywords: Unsupervised Surface Segmentation · 3D Point Cloud Processing · Lidar Data · Meshing
 
 [Download paper here](https://arxiv.org/abs/2005.02704)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Abstract
+Mapping the environment has been an important task for robot navigation and Simultaneous Localization And Mapping (SLAM). LIDAR provides a fast and accurate 3D point cloud map of the environment which helps in map building. However, processing millions of points in the point cloud becomes a computationally expensive task. In this paper, a methodology is presented to generate the segmented surfaces in real time and these can be used in modeling the 3D objects. At first an algorithm is proposed for efficient map building from single shot data of spinning Lidar. It is based on fast meshing and sub-sampling. It exploits the physical design and the working principle of the spinning Lidar sensor. The generated mesh surfaces are then segmented by estimating the normal and considering their homogeneity. The segmented surfaces can be used as proposals for predicting geometrically accurate model of objects in the robots activity environment. The proposed methodology is compared with some popular point cloud segmentation methods to highlight the efficacy in terms of accuracy and speed.
+
+
