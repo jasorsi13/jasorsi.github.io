@@ -13,5 +13,13 @@ Import a scene. <br/>
        
 Perform the velodyne sensor simulation and store it. <br/>
     ![alt text](https://github.com/jasorsi13/jasorsi.github.io/blob/master/images/blensor2.PNG?raw=true)" <br/>
+    
+ For our 3D scene reconstruction I have created a dataset that is annotated with the following nomenclature of different surfaces of “plane”, “ground plane”,
+“cylinder”, “sphere” and “cone” are colored as red, off white, blue, green and gray respectively.  
+    ![alt text](https://github.com/jasorsi13/jasorsi.github.io/blob/master/paper_img/14.PNG?raw=true)" <br/>
+    
+   We have created another form of dataset that was annotated based on difference in surface homogeneity. 
+     ![alt text](https://github.com/jasorsi13/jasorsi.github.io/blob/master/paper_img/1_updated.png?raw=true)" <br/>
+
   
 
