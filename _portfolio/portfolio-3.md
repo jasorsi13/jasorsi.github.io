@@ -8,10 +8,10 @@ Blensor is a software solution or a package capable of doing sensor simulation i
 
 We can import a scene and simulate the velodyne sensor scan and store it through this package, following are two snippets.
        
-Import a scene. 
+Import a scene. <br/>
    ![alt text](https://github.com/jasorsi13/jasorsi.github.io/blob/master/images/blensor1.PNG?raw=true)" <br/>
        
-Perform the velodyne sensor simulation and store it. 
+Perform the velodyne sensor simulation and store it. <br/>
     ![alt text](https://github.com/jasorsi13/jasorsi.github.io/blob/master/images/blensor2.PNG?raw=true)" <br/>
   
 
