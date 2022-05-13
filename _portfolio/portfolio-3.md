@@ -4,7 +4,7 @@ excerpt: "Free Open Source Simulation Package for Light Detection and Ranging (L
 collection: portfolio
 ---
 
-Blender is a free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D-printed models, motion graphics, interactive 3D applications, virtual reality, and, formerly, video games. Blender's features include 3D modelling, UV mapping, texturing, digital drawing, raster graphics editing, rigging and skinning, fluid and smoke simulation, particle simulation, soft body simulation, sculpting, animation, match moving, rendering, motion graphics, video editing, and compositing. More about them can be found in their [official website](https://www.blensor.org/). 
+Blensor is a software solution or a package capable of doing sensor simulation in Blender environment. Primary focus of the tool is around the Light Detection and Ranging (LIDAR/LADAR) and Kinect sensors. More about them can be found in their [official website](https://www.blensor.org/). 
 
 
 1.[Reconstruction of the Azimuth Plane Using Ultrasonic Wave Echos](https://www.youtube.com/watch?v=uXxN-u29SSY)
