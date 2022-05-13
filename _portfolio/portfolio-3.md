@@ -19,7 +19,10 @@ Perform the velodyne sensor simulation and store it. <br/>
     ![alt text](https://github.com/jasorsi13/jasorsi.github.io/blob/master/paper_img/14.PNG?raw=true)" <br/>
     
    We have created another form of dataset that was annotated based on difference in surface homogeneity. 
-     ![alt text](https://github.com/jasorsi13/jasorsi.github.io/blob/master/paper_img/1_updated.png?raw=true)" <br/>
+     ![alt text](https://github.com/jasorsi13/jasorsi.github.io/blob/master/paper_img/1_updated.png?raw=true)"      ![alt text](https://github.com/jasorsi13/jasorsi.github.io/blob/master/paper_img/6_updated.png?raw=true)" <br/>
+ 
+     
+    
 
   
 
