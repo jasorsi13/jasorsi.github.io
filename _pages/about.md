@@ -10,6 +10,12 @@ redirect_from:
 
 Welcome to Jasorsi's personal website. I am a PhD student at the [Department of Computer Science](https://www.cs.purdue.edu/) in [Purdue University](https://www.purdue.edu/), USA. I am currently working with Professor [Xavier Tricoche](https://www.cs.purdue.edu/homes/xmt/) on computer vision and computer graphics problems.
 
+Research Interest
+---------
+
+
+Background
+---------
 I have 3 years of work experience at [Samsung Semiconductor India Research and Development Center](https://research.samsung.com/sri-b) in Bangalore, India, working on low power ARM cpu's physical design cycle. My flavor of work at SSIR dealt with machine learning and [EDA](https://en.wikipedia.org/wiki/Electronic_design_automation) tools on the pretext of nano-scale 3D geometry, circuit theory, and semiconductor device characteristics. I obtained my Bachelor's degree from the [Department of Electronics and Telecommunication Engineering](http://www.jaduniv.edu.in/view_department.php?deptid=84) at [Jadavpur University](http://www.jaduniv.edu.in/), India in 2019. At Jadavpur University, I was affiliated with [Imaging, Vision & Pattern Recognition Group(IVPR)](https://sites.google.com/site/ivprgroup/home-page-ivpr?authuser=0)'s efforts aligned with machine vision problems primarily focused on real-time 3D scene reconstruction from LiDAR data. At IVPR, I worked with Professor [Ananda Shankar Chowdhury](https://sites.google.com/site/anandachowdhury/) and Professor [Sanjoy Kumar Saha](https://scholar.google.co.in/citations?user=MVooqJUAAAAJ&hl=en). 
 
 
