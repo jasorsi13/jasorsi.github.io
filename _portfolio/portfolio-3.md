@@ -4,9 +4,8 @@ excerpt: "Free Open Source Simulation Package for Light Detection and Ranging (L
 collection: portfolio
 ---
 
-JUSC is a student body initiative under the TEQIP program for students from different backgrounds to interact and nurture their interests focused on scientific  experiment, Robot building, circuits. I was an active member of the club. I collaborated with other members in robot building, designing actuators for robotics applications, and computer vision applications. Later I mentored young members in the club with our viewpoints and pragmatic learnings. 
+Blender is a free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D-printed models, motion graphics, interactive 3D applications, virtual reality, and, formerly, video games. Blender's features include 3D modelling, UV mapping, texturing, digital drawing, raster graphics editing, rigging and skinning, fluid and smoke simulation, particle simulation, soft body simulation, sculpting, animation, match moving, rendering, motion graphics, video editing, and compositing. More about them can be found in their [official website](https://www.blensor.org/). 
 
-A brief [highlight of my adventures](https://github.com/jasorsi13/jasorsi.github.io/blob/master/files/JUSC%20projects.pdf) can be found in the following paragraphs. You are encouraged to visit their [official website](https://www.jusc.co.in/) to get to know about their present interests. 
 
 1.[Reconstruction of the Azimuth Plane Using Ultrasonic Wave Echos](https://www.youtube.com/watch?v=uXxN-u29SSY)
    Timeline: December 2015
