@@ -12,7 +12,7 @@ Welcome to Jasorsi's personal website. I am a PhD student at the [Department of 
 
 Research Interest
 ---------
-
+My broad region of interest is 3D Vision and Recognition, Vision based Robot Control, Machine Vision, Human Computer Interface, and related Computer Vision aspects. I have experience of working with LiDAR data for 3D scene reconstruction and presenting a vectorized model of the objects in the environment. I am also interested in exploring the interactions of occlusion on object tracking and impact of odometry in navigation and control. 
 
 Background
 ---------
