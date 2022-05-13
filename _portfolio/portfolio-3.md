@@ -1,6 +1,6 @@
 ---
-title: "Jadavpur University Science Club Contributions"
-excerpt: "JUSC is a student driven body in the Jadavpur University campus that hosts science fairs, hosts robotics competition, builds robots, and computer vision applications. <br/> ![alt text](https://github.com/jasorsi13/jasorsi.github.io/blob/master/images/jusc_logo1.png?raw=true)"
+title: "BlenSor Tool Contributions"
+excerpt: "Free Open Source Simulation Package for Light Detection and Ranging (LIDAR/LADAR) and Kinect sensors. <br/> ![alt text](https://github.com/jasorsi13/jasorsi.github.io/blob/master/images/blensorlogo.PNG?raw=true)"
 collection: portfolio
 ---
 
