@@ -16,28 +16,26 @@ Education
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Samsung Semiconductor India Research and Development Center: Research Intern
+  * SSIR, Bangalore, India, July’ 19 - July’ 22 
+  * Supervisor: Ashish Chandra Jha  
+
+* Samsung Semiconductor India Research and Development Center: Research Intern
+  * SSIR, Bangalore, India, May’ 18 - July’ 18    
+
+* Imaging, Vision & Pattern Recognition Group (IVPR): Undergraduate researcher
+  * Department of Electronics and Telecommunication Engineering, Jadavpur University — Kolkata, India, July’ 17 - Dec’ 20
+  * Supervisor: Prof. Ananda Shankar Chowdhury, Prof. Sanjoy Kumar Saha
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Variable Energy Cyclotron Centre of Govt. of India, Kolkata: Research Intern at Electronics Automation Lab
+  * VECC, Kolkata, India, May’ 17 - June’ 17
+  * Supervisor: Dr. Anindya Roy
+
 
 Publications
 ======
-Please Visit my scholar page for latest updates on the [following link](https://jasorsi13.github.io/jasorsi.github.io/publications/)
+Please visit my scholar page for latest updates on the [following link](https://jasorsi13.github.io/jasorsi.github.io/publications/)
   
 Talks
 ======
@@ -53,4 +51,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Jadavpur University Science Club
