@@ -11,9 +11,8 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Bachelor of Engineering in Electronics and Telecommunication (ETCE), Jadavpur Univeristy, Kolkata, India (2015 – 2019)
+* Doctor of Philosophy in Computer Science (CS), Purdue University, Indiana, USA (2022 – Present)
 
 Work experience
 ======
@@ -38,9 +37,7 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+Please Visit my scholar page for latest updates on the [following link]{https://jasorsi13.github.io/jasorsi.github.io/publications/}  
   
 Talks
 ======
