@@ -37,7 +37,7 @@ Publications
 ======
 Please visit my scholar page for latest updates on the [following link](https://jasorsi13.github.io/jasorsi.github.io/publications/)
   
-Talks
+Research Article(s)
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
