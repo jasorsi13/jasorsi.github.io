@@ -37,7 +37,7 @@ Skills
 
 Publications
 ======
-Please Visit my scholar page for latest updates on the [following link]{https://jasorsi13.github.io/jasorsi.github.io/publications/}  
+Please Visit my scholar page for latest updates on the [following link](https://jasorsi13.github.io/jasorsi.github.io/publications/)
   
 Talks
 ======
