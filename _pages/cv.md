@@ -17,11 +17,11 @@ Education
 Work experience
 ======
 
-* Samsung Semiconductor India Research and Development Center: Research Intern
+* Samsung Semiconductor India Research and Development Center: Senior Design Engineer at Physical Design Team
   * SSIR, Bangalore, India, July’ 19 - July’ 22 
   * Supervisor: Ashish Chandra Jha  
 
-* Samsung Semiconductor India Research and Development Center: Research Intern
+* Samsung Semiconductor India Research and Development Center: Research Intern at Physical Design Team
   * SSIR, Bangalore, India, May’ 18 - July’ 18    
 
 * Imaging, Vision & Pattern Recognition Group (IVPR): Undergraduate researcher
