@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to Jasorsi's personal website. I am a PhD student at the [Department of Computer Science](https://www.cs.purdue.edu/) in [Purdue University](https://www.purdue.edu/), USA. I am currently working with Professor [Xavier Tricoche](https://www.cs.purdue.edu/homes/xmt/) on computer vision and computer graphics problems.
+Welcome to Jasorsi's personal website. I am a PhD student at the [Department of Computer Science](https://www.cs.purdue.edu/) in [Purdue University](https://www.purdue.edu/), USA. I am currently working with Professor [Aniket Bera](https://www.cs.purdue.edu/homes/ab/) on computer vision and human computer interface problems.
 
 Research Interest
 ---------
