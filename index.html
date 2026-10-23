@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Adventures of Jasorsi Ghosh — Graduate Student at Purdue CS</title>
+  <meta name="description" content="Personal academic website of Jasorsi Ghosh, Graduate Student at Purdue CS focusing on statistical reinforcement learning, causal world models, and multi-agent systems in classic bande dessinée clear-line style.">
+  <meta name="keywords" content="Jasorsi Ghosh, Purdue CS, Graduate Student at Purdue CS, Tintin, Asterix, Nonte Fonte, Reinforcement Learning, Causal World Models, Multi-Agent Systems">
+  <meta name="author" content="Jasorsi Ghosh">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/Jasorsi_img.jpeg">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <aside class="bd-margin-rail left-rail" id="margin-side-left" aria-label="Left Comic Characters Rail"></aside>
+  <aside class="bd-margin-rail right-rail" id="margin-side-right" aria-label="Right Comic Characters Rail"></aside>
+
+  <!-- =================================================================
+       Classic Album Ribbon Header (Tintin & Astérix Spine)
+       ================================================================= -->
+  <div class="bd-album-spine">
+    <span>🏛️ THE ADVENTURES OF JASORSI GHOSH · 2026 EDITION</span>
+    <span>⚔️ STATISTICAL REINFORCEMENT LEARNING &amp; CAUSAL INFERENCE ⚔️</span>
+    <span>PURDUE CS DISPATCH 📜</span>
+  </div>
+
+  <!-- =================================================================
+       Site Navigation (Clear Line European BD Style)
+       ================================================================= -->
+  <header class="site-header">
+    <div class="container navbar">
+      <a href="#about" class="logo-badge" aria-label="Jasorsi Ghosh Homepage">
+        <span class="logo-icon">🧭</span>
+        <span>JASORSI GHOSH</span>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#research" class="nav-link">Research</a></li>
+          <li><a href="#publications" class="nav-link">Publications</a></li>
+          <li><a href="#talks" class="nav-link">Talks</a></li>
+          <li><a href="#teaching" class="nav-link">Teaching &amp; Honors</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Album Edition" title="Toggle Album Edition">
+          <span class="theme-icon">☀️</span>
+        </button>
+        <button class="mobile-menu-btn" id="mobile-menu-toggle" aria-label="Toggle mobile menu">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- =================================================================
+       Asterix & Obelix Iconic Prologue Banner
+       ================================================================= -->
+  <div class="container">
+    <div class="asterix-prologue-banner">
+      <div class="asterix-prologue-tag">⚔️ 2026 CHRONICLE · PROLOGUE</div>
+      The year is <strong>2026</strong>. The world of Machine Learning is entirely occupied by massive observational models... 
+      <strong>Well, not entirely!</strong> At <strong>Purdue University</strong>, one indomitable <strong>Graduate Student</strong> still holds out against covariate shifts, 
+      harnessing the power of <strong>Causal World Models</strong>, Multi-Agent sequential bounds, and provable statistical guarantees!
+    </div>
+  </div>
+
+  <main>
+    <!-- =================================================================
+         Hero Section: The Adventures of Jasorsi Ghosh
+         ================================================================= -->
+    <section class="bd-hero" id="about">
+      <div class="container bd-hero-grid">
+        
+        <!-- Profile Panel (Left: Hergé Clear-Line Character Box) -->
+        <aside class="bd-panel bd-profile-panel">
+          <div class="bd-caption-box">
+            <span>🔍</span> THE RESEARCH INVESTIGATOR
+          </div>
+          
+          <div class="bd-avatar-frame">
+            <img src="assets/images/Jasorsi_img.jpeg" alt="Jasorsi Ghosh" class="bd-avatar-img">
+          </div>
+
+          <div class="bd-status-pill">
+            ⚡ Graduate Student at Purdue CS
+          </div>
+
+          <h1 class="bd-profile-name">Jasorsi Ghosh</h1>
+          <p class="bd-profile-role">Graduate Student at Purdue CS</p>
+          <p class="bd-profile-dept">
+            Department of Computer Science<br>
+            Purdue University, West Lafayette, USA
+          </p>
+
+          <!-- Social Links -->
+          <div class="bd-social-bar">
+            <a href="mailto:ghosh117@purdue.edu" class="bd-social-btn" title="Email: ghosh117@purdue.edu" aria-label="Email">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </a>
+            <a href="https://scholar.google.com/citations?hl=en&user=U1gkUkcAAAAJ" target="_blank" rel="noopener noreferrer" class="bd-social-btn" title="Google Scholar" aria-label="Google Scholar">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4 3.18v6.82h3v-4.5h10v4.5h3V12.68l2-1.59V19h2V9.5L12 0z"/></svg>
+            </a>
+            <a href="https://github.com/jasorsi13" target="_blank" rel="noopener noreferrer" class="bd-social-btn" title="GitHub" aria-label="GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/jasorsi/" target="_blank" rel="noopener noreferrer" class="bd-social-btn" title="LinkedIn" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+            <a href="https://twitter.com/jazz_victorian" target="_blank" rel="noopener noreferrer" class="bd-social-btn" title="Twitter / X" aria-label="Twitter">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+          </div>
+        </aside>
+
+        <!-- Main Hero Intro (Right: Tintin / Nonte Fonte Dialogue Speech Frame) -->
+        <div class="bd-speech-bubble">
+          <div class="bd-album-header-tag">PANEL 1 · CHAPTER I: THE CAUSAL QUEST</div>
+          
+          <h2 class="bd-hero-title">
+            UNIFYING <span class="tintin-blue">MULTI-AGENT RL</span> &amp; <span class="asterix-red">CAUSAL INFERENCE</span>!
+          </h2>
+
+          <!-- Democritus Anchor Quote -->
+          <div class="bd-quote-bubble">
+            <div class="bd-quote-text">
+              "I would rather discover one cause than be the King of Persia."
+            </div>
+            <div class="bd-quote-author">— Democritus, Ancient Greek Philosopher</div>
+          </div>
+
+          <p class="bd-hero-p">
+            I am a <strong>Graduate Student at Purdue CS</strong> (Department of Computer Science, Purdue University).
+            My research outlook focuses on the advancement of the foundations of statistical reinforcement learning. 
+            In the spirit of discovery, I aim to design autonomous agents capable of making informed sequential decisions, 
+            supported by a rigorous framework that allows them to reason about their environment and operational limits given reasonable input data and limited <em>a priori</em> domain knowledge.
+          </p>
+
+          <p class="bd-hero-p">
+            My research proves firsthand that <strong>scaling observational models cannot guarantee reliability under covariate shift without explicit causal understanding</strong>.
+          </p>
+
+          <!-- Hero Spotlight Badges -->
+          <div class="bd-spotlights">
+            <div class="bd-spotlight-card">
+              <div class="bd-spotlight-icon">🏆</div>
+              <div>
+                <span class="bd-sound-badge" style="font-size:0.75rem; padding:0.15rem 0.5rem; margin-bottom:0.3rem;">TOP 1% INSTRUCTORS</span>
+                <h4>Raymond Boyce Teaching Award</h4>
+                <p>Honored for top 1% teaching distinction at Purdue Computer Science for CS250 Computer Architecture.</p>
+              </div>
+            </div>
+
+            <div class="bd-spotlight-card">
+              <div class="bd-spotlight-icon">🧭</div>
+              <div>
+                <span class="bd-badge-pill badge-yellow">RESEARCH MISSION</span>
+                <h4>Causal World Models &amp; Safe RL</h4>
+                <p>Formulating Multi-Agent Sequential Backdoor Criteria and energy-based bounds under covariate shift.</p>
+              </div>
+            </div>
+          </div>
+
+          <div style="display:flex; gap:0.85rem; flex-wrap:wrap; margin-top:1.5rem;">
+            <a href="#research" class="bd-btn bd-btn-yellow">
+              <span>🔍</span> Explore Research
+            </a>
+            <button class="bd-btn bd-btn-secondary" onclick="openPosterModal()">
+              <span>🖼️</span> View Research Poster
+            </button>
+            <a href="#publications" class="bd-btn bd-btn-red">
+              <span>📑</span> Publications &amp; Preprints
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================================================================
+         Education & Background Section
+         ================================================================= -->
+    <section class="bd-section" id="education">
+      <div class="container">
+        
+        <div class="bd-section-header">
+          <div class="bd-section-tome-tag">CHRONICLES &amp; ORIGINS</div>
+          <h2 class="bd-section-title">Education &amp; Background</h2>
+          <p class="bd-section-subtitle">
+            Academic training in computer science, computer architecture, and telecommunication systems.
+          </p>
+        </div>
+
+        <div class="bd-edu-grid">
+          
+          <!-- Master of Science Purdue -->
+          <div class="bd-edu-card">
+            <div class="bd-caption-box">2022 – 2026 · PURDUE UNIVERSITY</div>
+            <h3 class="bd-edu-degree">Master of Science (2026)</h3>
+            <div class="bd-edu-school">Purdue University</div>
+            <div class="bd-edu-meta">
+              📅 <strong>2022 – 2026</strong> · 📍 West Lafayette, Indiana, USA · Department of Computer Science
+            </div>
+            <p style="font-size: 1.05rem; color: var(--bd-ink-light);">
+              Focus on statistical reinforcement learning, causal representation learning, and computer architecture. 
+              Graduate Teaching Assistant for CS250 (Computer Architecture) and recipient of the Raymond Boyce Graduate Teaching Award (Top 1% instructors).
+            </p>
+          </div>
+
+          <!-- Undergraduate Jadavpur University -->
+          <div class="bd-edu-card">
+            <div class="bd-caption-box">2015 – 2019 · UNDERGRADUATE FOUNDATION</div>
+            <h3 class="bd-edu-degree">Bachelor of Engineering</h3>
+            <div class="bd-edu-school">Jadavpur University</div>
+            <div class="bd-edu-meta">
+              📅 <strong>2015 – 2019</strong> · 📍 Kolkata, India · Electronics &amp; Telecommunication Engineering
+            </div>
+            <p style="font-size: 1.05rem; color: var(--bd-ink-light);">
+              Graduated with <strong>First-Class Honors with Distinction</strong>. Led undergraduate research in real-time 3D LiDAR geometry extraction 
+              and semantic surface segmentation, producing two peer-reviewed publications. Active leader at the university Science Club.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================================================================
+         Research Agenda & Causal Frameworks
+         ================================================================= -->
+    <section class="bd-section" id="research">
+      <div class="container">
+        
+        <div class="bd-section-header">
+          <div class="bd-section-tome-tag">VOLUME II · METHODOLOGY</div>
+          <h2 class="bd-section-title">Overarching Research Vision</h2>
+          <p class="bd-section-subtitle">
+            Unifying multi-agent reinforcement learning and causal inference for reliable agents operating under uncertainty and severe covariate shifts.
+          </p>
+        </div>
+
+        <!-- Research Poster Showcase Card (Cropped - Outcome Row Cut Out) -->
+        <div class="bd-panel" style="margin-bottom: 2.5rem; text-align: center;">
+          <div class="bd-caption-box">ARCHITECTURAL SCHEMATIC</div>
+          <h3 style="font-family: var(--font-bd-title); font-size: 1.6rem; font-weight:900; margin-bottom: 0.5rem; color: var(--bd-ink);">
+            Predictive Modeling Systems &amp; Rules of Engagement
+          </h3>
+          <p style="color: var(--bd-ink-muted); margin-bottom: 1.25rem; font-size: 1.05rem;">
+            Vector research architecture illustrating the operational simulation arena and literature axes. Click to view high-resolution overlay.
+          </p>
+
+          <div style="background: var(--bd-bg-secondary); border: var(--bd-border-mid); border-radius: var(--radius-bd-sm); padding: 1rem; cursor: pointer; max-width: 900px; margin: 0 auto 1.25rem;" onclick="openPosterModal()" title="Click to open full poster overlay">
+            <img src="assets/images/research_poster_v2_no_outcome.png" alt="Research Architecture (Outcome section cut out)" style="border-radius: var(--radius-bd-sm); max-height: 380px; width: 100%; object-fit: contain; margin: 0 auto;">
+            <div style="margin-top: 0.6rem; font-size: 0.95rem; font-weight: 700; color: var(--bd-ink-muted);">
+              🔍 Click to open full-scale zoomable poster viewer
+            </div>
+          </div>
+
+          <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+            <button class="bd-btn bd-btn-yellow bd-btn-sm" onclick="openPosterModal()">
+              <span>🖼️</span> Open Poster Overlay
+            </button>
+          </div>
+        </div>
+
+        <!-- Core Papers & Frameworks Grid -->
+        <div class="bd-caption-box" style="margin-bottom: 0.5rem;">THEORETICAL FOUNDATIONS</div>
+        <h3 style="font-family: var(--font-bd-title); font-size: 1.8rem; font-weight:900; color: var(--bd-ink); margin-bottom: 1.25rem;">
+          Core Papers &amp; Causal Frameworks
+        </h3>
+
+        <div class="bd-frameworks-grid">
+          
+          <!-- Paper 1: ICWM -->
+          <div class="bd-framework-card">
+            <div>
+              <span class="bd-badge-pill badge-yellow">Preprint</span>
+              <h4 class="bd-framework-title">Implicit Causal World Models (ICWM)</h4>
+              <p class="bd-framework-desc">
+                Addresses a foundational limitation in model-based reinforcement learning where agents' internal simulators fail by conflating statistical correlations with true causal mechanisms. 
+                Drawing inspiration from implicit surfaces in geometric modeling, ICWM approximates the underlying Structural Causal Model from limited multi-agent demonstrations without requiring a pre-defined causal graph. 
+                Introduces a novel <strong>Multi-Agent Sequential Backdoor Criterion</strong> for causal imitation learning, deriving identifiable implicit causal world models from multi-agent observational trajectories.
+              </p>
+            </div>
+            <div style="margin-top: 1.25rem;">
+              <span class="bd-btn bd-btn-secondary bd-btn-sm" style="opacity: 0.85; cursor: default;">
+                <span>⏳</span> Technical Report Coming Soon
+              </span>
+            </div>
+          </div>
+
+          <!-- Paper 2: EBTL -->
+          <div class="bd-framework-card">
+            <div>
+              <span class="bd-badge-pill badge-green">Published · CoLLAs 2026</span>
+              <h4 class="bd-framework-title">Energy-Based Transfer for RL (EBTL)</h4>
+              <p style="font-size: 0.95rem; font-weight: 700; color: var(--bd-ink-muted); margin-bottom: 0.6rem;">
+                🏛️ Published at 5th Conference on Lifelong Learning Agents (CoLLAs), 2026
+              </p>
+              <p class="bd-framework-desc">
+                Adapts supervised energy-based models to sequential decision-making. Formulates an energy landscape to perform in-support versus out-of-support detection at the boundaries of an agent's learned dynamics, 
+                serving as an energy-based gating mechanism to filter out harmful prior knowledge during skill transfer. 
+                Provides explicit energy regularization over high-dimensional state tensors to isolate positive transfer performance under severe covariate shift.
+              </p>
+            </div>
+            <div style="margin-top: 1.25rem;">
+              <a href="https://arxiv.org/abs/2506.16590" target="_blank" rel="noopener noreferrer" class="bd-btn bd-btn-red bd-btn-sm">
+                <span>📄</span> Read arXiv:2506.16590
+              </a>
+            </div>
+          </div>
+
+          <!-- Paper 3: CAIRN -->
+          <div class="bd-framework-card">
+            <div>
+              <span class="bd-badge-pill badge-blue">Preprint</span>
+              <h4 class="bd-framework-title">Certified Landmarks (CAIRN)</h4>
+              <p class="bd-framework-desc">
+                Certified Approximation for Interpretable Representer Landmarks brings causal landmark attribution to label-free self-supervised learning using low-rank Neural Tangent Kernel (NTK) approximations. 
+                CAIRN's core novelty lies in propagating parameter sketching and landmark sampling uncertainties directly to the model's output, enabling rigorous interpretability guarantees.
+              </p>
+            </div>
+            <div style="margin-top: 1.25rem;">
+              <a href="https://arxiv.org/abs/2609.38901" target="_blank" rel="noopener noreferrer" class="bd-btn bd-btn-blue bd-btn-sm">
+                <span>📄</span> Read arXiv:2609.38901
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Future Research Verticals (Only Top Headings!) -->
+        <div class="bd-verticals-panel">
+          <h3 class="bd-verticals-title">⚡ Future Research Verticals ⚡</h3>
+          <ul class="bd-verticals-list">
+            <li class="bd-vertical-item">
+              <span class="num">I</span>
+              <span>Partial Observability &amp; Causal Interventions</span>
+            </li>
+            <li class="bd-vertical-item">
+              <span class="num">II</span>
+              <span>Steerable Generative Models &amp; Decision Logic</span>
+            </li>
+            <li class="bd-vertical-item">
+              <span class="num">III</span>
+              <span>Provable Safety Boundaries &amp; Robust Representations</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================================================================
+         Publications & Preprints Section
+         ================================================================= -->
+    <section class="bd-section" id="publications">
+      <div class="container">
+        
+        <div class="bd-section-header">
+          <div class="bd-section-tome-tag">VOLUME III · ARCHIVES</div>
+          <h2 class="bd-section-title">Publications &amp; Preprints</h2>
+          <p class="bd-section-subtitle">
+            Authored research across causal reinforcement learning, transfer learning, and geometric surface extraction from LiDAR point clouds.
+          </p>
+        </div>
+
+        <div class="bd-pub-list">
+          
+          <!-- Publication 1: ICWM -->
+          <article class="bd-pub-card">
+            <div class="bd-pub-icon">🌐</div>
+            <div class="bd-pub-body">
+              <div>
+                <span class="bd-badge-pill badge-yellow">Preprint</span>
+                <span style="font-weight:700; color:var(--bd-ink-muted); font-size:0.95rem; margin-left:0.5rem;">2024</span>
+              </div>
+              <h3 class="bd-pub-title">
+                Learning Implicit Causal World Models from Multi-Agent Demonstrations
+              </h3>
+              <div class="bd-pub-authors">
+                <strong>Jasorsi Ghosh</strong>, Rohan Paleja, Joseph Campbell
+              </div>
+              <div class="bd-pub-venue">
+                Technical Report
+              </div>
+              <p class="bd-pub-desc">
+                Introduces the Multi-Agent Sequential Backdoor Criterion for causal imitation learning, deriving fully resolved and identifiable implicit causal world models from multi-agent observational trajectories without a pre-defined graph.
+              </p>
+              <div class="bd-pub-links">
+                <span class="bd-btn bd-btn-secondary bd-btn-sm" style="opacity: 0.85; cursor: default;">
+                  <span>⏳</span> Technical Report Coming Soon
+                </span>
+                <span class="bd-btn bd-btn-secondary bd-btn-sm" style="opacity: 0.85; cursor: default;">
+                  <span>⏳</span> Citation Coming Soon
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Publication 2: EBTL -->
+          <article class="bd-pub-card">
+            <div class="bd-pub-icon">⚡</div>
+            <div class="bd-pub-body">
+              <div>
+                <span class="bd-badge-pill badge-green">Published · CoLLAs 2026</span>
+                <span style="font-weight:700; color:var(--bd-ink-muted); font-size:0.95rem; margin-left:0.5rem;">2026</span>
+              </div>
+              <h3 class="bd-pub-title">
+                Energy-Based Transfer for Reinforcement Learning (EBTL)
+              </h3>
+              <div class="bd-pub-authors">
+                Z. Deng, <strong>Jasorsi Ghosh</strong>, F. Xie, Y. Lu, K. Sycara, Joseph Campbell
+              </div>
+              <div class="bd-pub-venue">
+                🏛️ Published at 5th Conference on Lifelong Learning Agents (CoLLAs), 2026
+              </div>
+              <p class="bd-pub-desc">
+                Adapts supervised energy-based models to sequential decision-making. Formulates an energy landscape to perform in-support versus out-of-support detection at the boundaries of learned dynamics, preventing negative transfer under severe covariate shift.
+              </p>
+              <div class="bd-pub-links">
+                <a href="https://arxiv.org/abs/2506.16590" target="_blank" rel="noopener noreferrer" class="bd-btn bd-btn-red bd-btn-sm">
+                  <span>📄</span> Read arXiv:2506.16590
+                </a>
+                <button class="bd-btn bd-btn-secondary bd-btn-sm" data-copy="Z. Deng, J. Ghosh, F. Xie, Y. Lu, K. Sycara, and J. Campbell, 'Energy-Based Transfer for Reinforcement Learning (EBTL),' in Proceedings of the 5th Conference on Lifelong Learning Agents (CoLLAs), 2026.">
+                  <span>📋</span> Copy Citation
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Publication 3: CAIRN -->
+          <article class="bd-pub-card">
+            <div class="bd-pub-icon">🔬</div>
+            <div class="bd-pub-body">
+              <div>
+                <span class="bd-badge-pill badge-blue">Preprint</span>
+                <span style="font-weight:700; color:var(--bd-ink-muted); font-size:0.95rem; margin-left:0.5rem;">2026</span>
+              </div>
+              <h3 class="bd-pub-title">
+                Certified Approximation for Interpretable Representer Landmarks
+              </h3>
+              <div class="bd-pub-authors">
+                J. Mukherjee, S. Verma, M. Wang, <strong>Jasorsi Ghosh</strong>, Ananth Grama
+              </div>
+              <div class="bd-pub-venue">
+                arXiv:2609.38901
+              </div>
+              <p class="bd-pub-desc">
+                Brings certified causal landmark attribution to self-supervised representation learning via low-rank Neural Tangent Kernel (NTK) approximations with rigorous error bounds.
+              </p>
+              <div class="bd-pub-links">
+                <a href="https://arxiv.org/abs/2609.38901" target="_blank" rel="noopener noreferrer" class="bd-btn bd-btn-blue bd-btn-sm">
+                  <span>📄</span> Read arXiv PDF
+                </a>
+                <button class="bd-btn bd-btn-secondary bd-btn-sm" data-copy="J. Mukherjee, S. Verma, M. Wang, J. Ghosh, and A. Grama, 'Certified approximation for interpretable representer landmarks,' arXiv preprint arXiv:2609.38901, 2026.">
+                  <span>📋</span> Copy Citation
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Publication 4: PaCMO -->
+          <article class="bd-pub-card">
+            <div class="bd-pub-icon">🕺</div>
+            <div class="bd-pub-body">
+              <div>
+                <span class="bd-badge-pill badge-yellow">Preprint</span>
+                <span style="font-weight:700; color:var(--bd-ink-muted); font-size:0.95rem; margin-left:0.5rem;">2022</span>
+              </div>
+              <h3 class="bd-pub-title">
+                PaCMO: Partner Dependent Human Motion Generation in Dyadic Human Activity using Neural Operators
+              </h3>
+              <div class="bd-pub-authors">
+                Md Ashiqur Rahman, <strong>Jasorsi Ghosh</strong>, Hrishikesh Viswanath, Kamyar Azizzadenesheli, Aniket Bera
+              </div>
+              <div class="bd-pub-venue">
+                arXiv:2211.16210
+              </div>
+              <p class="bd-pub-desc">
+                Proposes a partner-conditioned motion operator (PaCMO) learning human motion distributions conditioned by an interacting actor's motion in continuous function spaces through adversarial training. Evaluated on dyadic activities using the Functional Fréchet Inception Distance (F²ID).
+              </p>
+              <div class="bd-pub-links">
+                <a href="https://arxiv.org/abs/2211.16210" target="_blank" rel="noopener noreferrer" class="bd-btn bd-btn-yellow bd-btn-sm">
+                  <span>📄</span> Read arXiv:2211.16210
+                </a>
+                <button class="bd-btn bd-btn-secondary bd-btn-sm" data-copy="M. A. Rahman, J. Ghosh, H. Viswanath, K. Azizzadenesheli, and A. Bera, 'PaCMO: Partner Dependent Human Motion Generation in Dyadic Human Activity using Neural Operators,' arXiv preprint arXiv:2211.16210, 2022.">
+                  <span>📋</span> Copy Citation
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Publication 5: MTAP Journal -->
+          <article class="bd-pub-card">
+            <div class="bd-pub-icon">📡</div>
+            <div class="bd-pub-body">
+              <div>
+                <span class="bd-badge-pill badge-yellow">Journal Article</span>
+                <span style="font-weight:700; color:var(--bd-ink-muted); font-size:0.95rem; margin-left:0.5rem;">2021</span>
+              </div>
+              <h3 class="bd-pub-title">
+                Semantic Segmentation of Surface from LiDAR Point Cloud
+              </h3>
+              <div class="bd-pub-authors">
+                A. Mukherjee, S. D. Das, <strong>Jasorsi Ghosh</strong>, A. S. Chowdhury, Sanjoy Kumar Saha
+              </div>
+              <div class="bd-pub-venue">
+                Multimedia Tools and Applications (Springer), vol. 80, no. 28, pp. 35171–35191
+              </div>
+              <p class="bd-pub-desc">
+                A real-time geometric surface extraction and classification pipeline operating directly on ordered spherical LiDAR sweeps, achieving over 60% MIoU at low hardware cost.
+              </p>
+              <div class="bd-pub-links">
+                <a href="https://arxiv.org/pdf/2009.05994.pdf" target="_blank" rel="noopener noreferrer" class="bd-btn bd-btn-secondary bd-btn-sm">
+                  <span>📄</span> Read PDF
+                </a>
+                <button class="bd-btn bd-btn-secondary bd-btn-sm" data-copy="A. Mukherjee, S. D. Das, J. Ghosh, A. S. Chowdhury, and S. K. Saha, 'Semantic segmentation of surface from lidar point cloud,' Multimedia Tools and Applications, vol. 80, no. 28, pp. 35171–35191, 2021.">
+                  <span>��</span> Copy BibTeX
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Publication 6: PReMI Conference -->
+          <article class="bd-pub-card">
+            <div class="bd-pub-icon">🎯</div>
+            <div class="bd-pub-body">
+              <div>
+                <span class="bd-badge-pill badge-green">Conference Proceedings</span>
+                <span style="font-weight:700; color:var(--bd-ink-muted); font-size:0.95rem; margin-left:0.5rem;">2019</span>
+              </div>
+              <h3 class="bd-pub-title">
+                Fast Geometric Surface Based Segmentation of Point Cloud from LiDAR Data
+              </h3>
+              <div class="bd-pub-authors">
+                A. Mukherjee, S. D. Das, <strong>Jasorsi Ghosh</strong>, A. S. Chowdhury, Sanjoy Kumar Saha
+              </div>
+              <div class="bd-pub-venue">
+                Pattern Recognition and Machine Intelligence (PReMI), Springer LNCS, pp. 415–423
+              </div>
+              <p class="bd-pub-desc">
+                Rapid segmentation methodology utilizing spherical coordinate ordering and depth-first normal traversal to eliminate KD-tree computational bottlenecks on spinning laser ranges.
+              </p>
+              <div class="bd-pub-links">
+                <a href="https://arxiv.org/pdf/2009.05994.pdf" target="_blank" rel="noopener noreferrer" class="bd-btn bd-btn-secondary bd-btn-sm">
+                  <span>📄</span> Read PDF
+                </a>
+                <button class="bd-btn bd-btn-secondary bd-btn-sm" data-copy="A. Mukherjee, S. D. Das, J. Ghosh, A. S. Chowdhury, and S. K. Saha, 'Fast geometric surface based segmentation of point cloud from lidar data,' in PReMI, Springer, 2019, pp. 415–423.">
+                  <span>📋</span> Copy BibTeX
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================================================================
+         Talks & Technical Articles (Click Opens Full Material Overlay)
+         ================================================================= -->
+    <section class="bd-section" id="talks">
+      <div class="container">
+        
+        <div class="bd-section-header">
+          <div class="bd-section-tome-tag">VOLUME IV · LECTURES</div>
+          <h2 class="bd-section-title">Talks &amp; Technical Articles</h2>
+          <p class="bd-section-subtitle">
+            Two-part technical tutorial series delivered on real-time geometry extraction and semantic segmentation from LiDAR point clouds. 
+            <strong>Click either card to open full technical material and slides in an interactive overlay.</strong>
+          </p>
+        </div>
+
+        <div class="bd-talks-grid">
+          
+          <!-- Talk Part 2 -->
+          <article class="bd-talk-card" onclick="openTalkModal(2)" title="Click to open Part 2 technical overlay">
+            <div class="bd-talk-img-wrap">
+              <img src="assets/paper_img/10.PNG" alt="Semantic Surface Segmentation from LiDAR" class="bd-talk-img">
+              <span class="bd-talk-pill">Part 2 · Tutorial</span>
+            </div>
+            <div class="bd-talk-body">
+              <div class="bd-talk-meta">
+                📅 December 12, 2020 · 🏛️ IVPR Group, Jadavpur University
+              </div>
+              <h3 class="bd-talk-title">
+                Real time Geometry Extraction and Vectorization of Objects from Point-Cloud Data (PART 2)
+              </h3>
+              <div class="bd-tag-group">
+                <span class="bd-tag">Semantic Surface Segmentation</span>
+                <span class="bd-tag">3D Point Cloud Processing</span>
+                <span class="bd-tag">LiDAR Data</span>
+                <span class="bd-tag">Meshing</span>
+              </div>
+              <p class="bd-talk-desc">
+                Continuation tutorial addressing semantic surface labeling on extracted geometric proposals. Features synthetic dataset generation in BlenSor and high-speed Random Decision Forests delivering >60% MIoU in real time.
+              </p>
+              <div style="margin-top:auto;">
+                <span class="bd-btn bd-btn-yellow bd-btn-sm" style="width:100%;">
+                  <span>📖</span> Open Full Tutorial Overlay
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Talk Part 1 -->
+          <article class="bd-talk-card" onclick="openTalkModal(1)" title="Click to open Part 1 technical overlay">
+            <div class="bd-talk-img-wrap">
+              <img src="assets/paper_img/1.PNG" alt="Geometry Extraction from LiDAR" class="bd-talk-img">
+              <span class="bd-talk-pill">Part 1 · Tutorial</span>
+            </div>
+            <div class="bd-talk-body">
+              <div class="bd-talk-meta">
+                📅 December 12, 2020 · 🏛️ IVPR Group, Jadavpur University
+              </div>
+              <h3 class="bd-talk-title">
+                Real time Geometry Extraction and Vectorization of Objects from Point-Cloud Data (PART 1)
+              </h3>
+              <div class="bd-tag-group">
+                <span class="bd-tag">Geometry Extraction</span>
+                <span class="bd-tag">Vectorization</span>
+                <span class="bd-tag">3D Point Cloud Processing</span>
+                <span class="bd-tag">LiDAR Data</span>
+              </div>
+              <p class="bd-talk-desc">
+                Comprehensive tutorial on ordering spherical point clouds into sweeps, subsampling along horizontal laser rays to eliminate noise, and using normal similarity DFS to segment geometric surfaces without KD-trees.
+              </p>
+              <div style="margin-top:auto;">
+                <span class="bd-btn bd-btn-secondary bd-btn-sm" style="width:100%;">
+                  <span>📖</span> Open Full Tutorial Overlay
+                </span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================================================================
+         Teaching & Honors Section
+         ================================================================= -->
+    <section class="bd-section" id="teaching">
+      <div class="container">
+        
+        <div class="bd-section-header">
+          <div class="bd-section-tome-tag">VOLUME V · RECOGNITION</div>
+          <h2 class="bd-section-title">Teaching &amp; Honors</h2>
+          <p class="bd-section-subtitle">
+            Academic teaching distinctions, outreach leadership, and semiconductor industrial research recognition.
+          </p>
+        </div>
+
+        <div class="bd-honors-grid">
+          
+          <!-- Honor 1: Raymond Boyce Teaching Award -->
+          <div class="bd-honor-card">
+            <div class="bd-honor-icon">🏆</div>
+            <div>
+              <span class="bd-sound-badge" style="font-size:0.75rem; padding:0.15rem 0.5rem; margin-bottom:0.3rem;">TOP 1% INSTRUCTORS</span>
+              <h4>Raymond Boyce Teaching Award</h4>
+              <p>
+                Awarded by the Purdue Computer Science Department (reserved for the top 1% of instructors) for distinguished teaching and curriculum design contributions in CS250 (Computer Architecture) with Prof. George Adams. Named for the co-creator of SQL.
+              </p>
+            </div>
+          </div>
+
+          <!-- Honor 2: Minority Engineering Program -->
+          <div class="bd-honor-card">
+            <div class="bd-honor-icon">🤖</div>
+            <div>
+              <span class="bd-badge-pill badge-yellow">STEM OUTREACH</span>
+              <h4>Purdue Minority Engineering Program</h4>
+              <p>
+                Designed curriculum and served as lead instructor in the summer robotics camp within the STEM outreach division of Purdue’s Minority Engineering Program, guiding hands-on robotics workshops for young engineers.
+              </p>
+            </div>
+          </div>
+
+          <!-- Honor 3: Samsung Research Spotlight -->
+          <div class="bd-honor-card">
+            <div class="bd-honor-icon">⚡</div>
+            <div>
+              <span class="bd-badge-pill badge-green">INDUSTRY EXCELLENCE</span>
+              <h4>Samsung Spotlight &amp; Best Intern Awards</h4>
+              <p>
+                Earned the <strong>Spotlight Award (2022)</strong> and <strong>Best Intern Award (2018)</strong> at Samsung Semiconductor (SSIR) for designing and optimizing 3D routing, cell placement, and power-plan design algorithms at the 5nm node for ARM CPUs.
+              </p>
+            </div>
+          </div>
+
+          <!-- Honor 4: Jadavpur University First Class Honors -->
+          <div class="bd-honor-card">
+            <div class="bd-honor-icon">🎓</div>
+            <div>
+              <span class="bd-badge-pill badge-blue">ACADEMIC HONORS</span>
+              <h4>First-Class Honors with Distinction</h4>
+              <p>
+                Graduated with First-Class Honors with Distinction in Electronics and Telecommunication Engineering from Jadavpur University. Published two peer-reviewed papers on LiDAR point cloud segmentation.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================================================================
+         Portfolio & Open Source (Dedicated Webpage Overlays)
+         ================================================================= -->
+    <section class="bd-section" id="portfolio">
+      <div class="container">
+        
+        <div class="bd-section-header">
+          <div class="bd-section-tome-tag">VOLUME VI · WORKSHOPS</div>
+          <h2 class="bd-section-title">Portfolio &amp; Projects</h2>
+          <p class="bd-section-subtitle">
+            Community initiatives, science club robotics leadership, and simulation tools. 
+            <strong>Click any card to open a dedicated project webpage overlay with full details, screenshots, and documents.</strong>
+          </p>
+        </div>
+
+        <div class="bd-portfolio-grid">
+          
+          <!-- Portfolio 1: The Processing Community -->
+          <article class="bd-portfolio-card" onclick="openPortfolioModal('processing')" title="Click to open The Processing Community webpage overlay">
+            <div class="bd-portfolio-preview">
+              <img src="assets/images/Processing_2021_logo.png" alt="The Processing Community Logo" class="bd-portfolio-logo">
+            </div>
+            <div class="bd-portfolio-body">
+              <div class="bd-caption-box">CREATIVE COMPUTING</div>
+              <h3 class="bd-portfolio-title">The Processing Community</h3>
+              <p class="bd-portfolio-desc">
+                Organized creative coding workshops, digital art competitions, and interactive media projects utilizing the Processing and p5.js frameworks to foster accessibility in visual programming.
+              </p>
+              <div style="margin-top:auto;">
+                <span class="bd-btn bd-btn-yellow bd-btn-sm" style="width:100%;">
+                  <span>🚀</span> Open Dedicated Webpage
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Portfolio 2: JUSC -->
+          <article class="bd-portfolio-card" onclick="openPortfolioModal('jusc')" title="Click to open Jadavpur Science Club webpage overlay">
+            <div class="bd-portfolio-preview">
+              <img src="assets/images/jusc_logo1.png" alt="Jadavpur University Science Club Logo" class="bd-portfolio-logo">
+            </div>
+            <div class="bd-portfolio-body">
+              <div class="bd-caption-box">ROBOTICS &amp; HARDWARE</div>
+              <h3 class="bd-portfolio-title">Jadavpur University Science Club</h3>
+              <p class="bd-portfolio-desc">
+                Led robotics, electronics, and embedded systems workshops for collegiate and high school students. Organized competitive science fairs, hackathons, and hardware bootcamps.
+              </p>
+              <div style="margin-top:auto;">
+                <span class="bd-btn bd-btn-secondary bd-btn-sm" style="width:100%;">
+                  <span>🚀</span> Open Dedicated Webpage
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Portfolio 3: BlenSor Tool -->
+          <article class="bd-portfolio-card" onclick="openPortfolioModal('blensor')" title="Click to open BlenSor Simulator webpage overlay">
+            <div class="bd-portfolio-preview">
+              <img src="assets/images/blensorlogo.PNG" alt="BlenSor LiDAR Simulator Logo" class="bd-portfolio-logo">
+            </div>
+            <div class="bd-portfolio-body">
+              <div class="bd-caption-box">SENSOR SIMULATION</div>
+              <h3 class="bd-portfolio-title">BlenSor LiDAR Simulator Integration</h3>
+              <p class="bd-portfolio-desc">
+                Implemented realistic physical range sensor simulations in Blender utilizing BlenSor. Emulated rotating Velodyne 32E sensor rays with configurable noise models to produce ground-truth synthetic datasets.
+              </p>
+              <div style="margin-top:auto;">
+                <span class="bd-btn bd-btn-red bd-btn-sm" style="width:100%;">
+                  <span>🚀</span> Open Dedicated Webpage
+                </span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =================================================================
+       Comic Album Footer
+       ================================================================= -->
+  <footer class="bd-footer" id="contact" style="background: var(--bd-bg-card); border-top: var(--bd-border-thick); padding: 2.25rem 0 1.5rem;">
+    <div class="container" style="text-align: center;">
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.85rem; align-items: center; margin-bottom: 1.5rem;">
+        <span style="font-family: var(--font-bd-title); font-weight: 900; font-size: 1.15rem; color: var(--bd-ink); margin-right: 0.5rem;">⚡ Connect:</span>
+        <a href="mailto:ghosh117@purdue.edu" class="bd-btn bd-btn-secondary bd-btn-sm" title="Email Jasorsi Ghosh">
+          <span>✉️ Email</span>
+        </a>
+        <a href="https://scholar.google.com/citations?hl=en&user=U1gkUkcAAAAJ" target="_blank" rel="noopener noreferrer" class="bd-btn bd-btn-yellow bd-btn-sm" title="Google Scholar">
+          <span>🎓 Google Scholar</span>
+        </a>
+        <a href="https://github.com/jasorsi13" target="_blank" rel="noopener noreferrer" class="bd-btn bd-btn-secondary bd-btn-sm" title="GitHub">
+          <span>🐙 GitHub</span>
+        </a>
+        <a href="https://www.linkedin.com/in/jasorsi/" target="_blank" rel="noopener noreferrer" class="bd-btn bd-btn-secondary bd-btn-sm" title="LinkedIn">
+          <span>💼 LinkedIn</span>
+        </a>
+        <a href="https://twitter.com/jazz_victorian" target="_blank" rel="noopener noreferrer" class="bd-btn bd-btn-secondary bd-btn-sm" title="Twitter / X">
+          <span>🐦 Twitter / X</span>
+        </a>
+      </div>
+
+      <div style="border-top: var(--bd-border-thin); padding-top: 1.25rem; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 0.75rem; font-size: 0.95rem; color: var(--bd-ink-muted);">
+        <div>
+          © 2026 Jasorsi Ghosh · Graduate Student at Purdue CS. All rights reserved.
+        </div>
+        <div>
+          ⚔️ Crafted in Franco-Belgian Ligne Claire &amp; Classic Comic Album Style
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =================================================================
+       OVERLAY MODAL 1: Talk Part 2 Full Material
+       ================================================================= -->
+  <div class="comic-modal-backdrop" id="talk-modal-part2" role="dialog" aria-modal="true">
+    <div class="comic-modal-window">
+      <div class="comic-modal-header">
+        <h3 class="comic-modal-title">📖 Tutorial Part 2: Semantic Surface Segmentation from LiDAR</h3>
+        <button class="comic-modal-close-btn" aria-label="Close modal">✕</button>
+      </div>
+
+      <div class="comic-modal-body">
+        <div class="bd-caption-box">DECEMBER 12, 2020 · IVPR GROUP, JADAVPUR UNIVERSITY</div>
+        
+        <h2 style="font-family: var(--font-bd-title); font-size: 1.6rem; color: var(--bd-ink); margin: 0.5rem 0 1rem;">
+          Real time Geometry Extraction and Vectorization of Objects from Point-Cloud Data (PART 2)
+        </h2>
+
+        <p>
+          In this continuation tutorial, we address the challenge of semantic surface labeling on extracted geometric proposals.
+          The pipeline was developed to operate online during LiDAR rotations with minimal computational overhead.
+        </p>
+
+        <!-- Slide Previews -->
+        <div class="comic-modal-gallery">
+          <div class="comic-modal-img-card">
+            <img src="assets/paper_img/11.PNG" alt="Synthetic scenes in Blensor">
+            <small>Synthetic dataset in BlenSor with multi-surface annotations</small>
+          </div>
+          <div class="comic-modal-img-card">
+            <img src="assets/paper_img/13.PNG" alt="Comparative MIoU Benchmark">
+            <small>Comparative segmentation results vs PointNet &amp; PointNet++</small>
+          </div>
+          <div class="comic-modal-img-card">
+            <img src="assets/paper_img/10.PNG" alt="Pipeline flowchart">
+            <small>Classification pipeline using Random Decision Forests</small>
+          </div>
+        </div>
+
+        <h3 style="font-family: var(--font-bd-title); font-size: 1.3rem; color: var(--bd-red); margin-top: 1.5rem;">
+          Methodology &amp; Results:
+        </h3>
+        <ul style="padding-left: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem;">
+          <li><strong>Synthetic Simulation:</strong> Created 32 complex environments using the BlenSor package simulating a Velodyne 32E sensor with calibrated Gaussian noise.</li>
+          <li><strong>Classifier Optimization:</strong> Evaluated Random Decision Forests (RDF) and Extremely Randomized Trees (ERT), yielding high F1-scores without GPU dependencies.</li>
+          <li><strong>Real-time Benchmark:</strong> Delivers &gt;60% Mean Intersection over Union (MIoU) at 8–8.7 frames per second (115–124 ms latency), executing concurrently with spinning LiDAR sweeps.</li>
+        </ul>
+      </div>
+
+      <div class="comic-modal-footer">
+        <button class="bd-btn bd-btn-red bd-btn-sm" data-modal-close>
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =================================================================
+       OVERLAY MODAL 2: Talk Part 1 Full Material
+       ================================================================= -->
+  <div class="comic-modal-backdrop" id="talk-modal-part1" role="dialog" aria-modal="true">
+    <div class="comic-modal-window">
+      <div class="comic-modal-header">
+        <h3 class="comic-modal-title">📖 Tutorial Part 1: Real-time Geometry Extraction from LiDAR</h3>
+        <button class="comic-modal-close-btn" aria-label="Close modal">✕</button>
+      </div>
+
+      <div class="comic-modal-body">
+        <div class="bd-caption-box">DECEMBER 12, 2020 · IVPR GROUP, JADAVPUR UNIVERSITY</div>
+        
+        <h2 style="font-family: var(--font-bd-title); font-size: 1.6rem; color: var(--bd-ink); margin: 0.5rem 0 1rem;">
+          Real time Geometry Extraction and Vectorization of Objects from Point-Cloud Data (PART 1)
+        </h2>
+
+        <p>
+          Details the mathematical formulation and algorithms for extracting coherent geometric surfaces from raw spherical coordinate point clouds generated by spinning laser rangefinders.
+        </p>
+
+        <!-- Slide Previews -->
+        <div class="comic-modal-gallery">
+          <div class="comic-modal-img-card">
+            <img src="assets/paper_img/2a.PNG" alt="System Block Diagram">
+            <small>Pipeline block diagram from LiDAR sweep to vectorized mesh</small>
+          </div>
+          <div class="comic-modal-img-card">
+            <img src="assets/paper_img/6.PNG" alt="Surface normal extraction">
+            <small>Surface normal calculation and DFS inductive segment labeling</small>
+          </div>
+          <div class="comic-modal-img-card">
+            <img src="assets/paper_img/1.PNG" alt="Raw point cloud">
+            <small>Spherical ordered grid representation</small>
+          </div>
+        </div>
+
+        <h3 style="font-family: var(--font-bd-title); font-size: 1.3rem; color: var(--bd-blue-tintin); margin-top: 1.5rem;">
+          Core Algorithmic Principles:
+        </h3>
+        <ul style="padding-left: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem;">
+          <li><strong>Ordered Spherical Grids:</strong> Point clouds are ordered as <em>P = {p(θ, φ, r)}</em> along horizontal sweeps, allowing instant neighborhood connectivity without expensive KD-tree lookups.</li>
+          <li><strong>Sub-Sampling for Noise Suppression:</strong> Sub-sampling along horizontal angles eliminates spurious normals caused by closely packed noisy points.</li>
+          <li><strong>Homogeneity Propagation:</strong> Segment proposals propagate through a component-wise normal similarity threshold using inductive depth-first traversal.</li>
+        </ul>
+      </div>
+
+      <div class="comic-modal-footer">
+        <button class="bd-btn bd-btn-red bd-btn-sm" data-modal-close>
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =================================================================
+       OVERLAY MODAL 3: Dedicated Portfolio - The Processing Community
+       ================================================================= -->
+  <div class="comic-modal-backdrop" id="portfolio-modal-processing" role="dialog" aria-modal="true">
+    <div class="comic-modal-window">
+      <div class="comic-modal-header">
+        <h3 class="comic-modal-title">🎨 Dedicated Webpage: The Processing Community</h3>
+        <button class="comic-modal-close-btn" aria-label="Close modal">✕</button>
+      </div>
+
+      <div class="comic-modal-body">
+        <div style="display:flex; align-items:center; gap:1.5rem; margin-bottom:1.5rem; flex-wrap:wrap;">
+          <img src="assets/images/Processing_2021_logo.png" alt="Processing Logo" style="height:70px; object-fit:contain;">
+          <div>
+            <div class="bd-caption-box">CREATIVE PROGRAMMING &amp; COMPUTATIONAL ART</div>
+            <h2 style="font-family: var(--font-bd-title); font-size: 1.6rem; color: var(--bd-ink); margin: 0.2rem 0;">
+              The Processing Community Initiative
+            </h2>
+          </div>
+        </div>
+
+        <p>
+          The Processing Community project bridges computer science and creative visual expression. 
+          Through structured tutorials, collaborative open-source toolkits, and interactive computational graphics, 
+          we empowered students and creative coders to generate interactive software, dynamic algorithmic art, and real-time audio-visual simulations.
+        </p>
+
+        <!-- Project Screenshots Gallery -->
+        <h3 style="font-family: var(--font-bd-title); font-size: 1.3rem; color: var(--bd-blue-tintin); margin: 1.5rem 0 0.75rem;">
+          Project Gallery &amp; Interfaces:
+        </h3>
+        <div class="comic-modal-gallery">
+          <div class="comic-modal-img-card">
+            <img src="assets/images/Capture1.PNG" alt="Processing Project 1">
+            <small>Interactive Canvas Application</small>
+          </div>
+          <div class="comic-modal-img-card">
+            <img src="assets/images/Capture2.PNG" alt="Processing Project 2">
+            <small>Generative Typography &amp; Motion</small>
+          </div>
+          <div class="comic-modal-img-card">
+            <img src="assets/images/Capture3.PNG" alt="Processing Project 3">
+            <small>Algorithmic Particle Systems</small>
+          </div>
+          <div class="comic-modal-img-card">
+            <img src="assets/images/Capture4.PNG" alt="Processing Project 4">
+            <small>Real-time Sound Reactive Visuals</small>
+          </div>
+        </div>
+
+        <h3 style="font-family: var(--font-bd-title); font-size: 1.3rem; color: var(--bd-ink); margin-top: 1.5rem;">
+          Key Highlights &amp; Impact:
+        </h3>
+        <ul style="padding-left: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem;">
+          <li>Designed beginner-friendly curriculum for Processing (Java) and p5.js (JavaScript).</li>
+          <li>Conducted interactive workshops for 200+ students on procedural graphics and shader math.</li>
+          <li>Published curated project compilation documentation for educators and students.</li>
+        </ul>
+
+
+      </div>
+
+      <div class="comic-modal-footer">
+        <a href="https://processing.org/" target="_blank" rel="noopener noreferrer" class="bd-btn bd-btn-yellow bd-btn-sm">
+          <span>🌐</span> Official Processing Software
+        </a>
+        <button class="bd-btn bd-btn-red bd-btn-sm" data-modal-close>
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =================================================================
+       OVERLAY MODAL 4: Dedicated Portfolio - JUSC
+       ================================================================= -->
+  <div class="comic-modal-backdrop" id="portfolio-modal-jusc" role="dialog" aria-modal="true">
+    <div class="comic-modal-window">
+      <div class="comic-modal-header">
+        <h3 class="comic-modal-title">🤖 Dedicated Webpage: Jadavpur University Science Club</h3>
+        <button class="comic-modal-close-btn" aria-label="Close modal">✕</button>
+      </div>
+
+      <div class="comic-modal-body">
+        <div style="display:flex; align-items:center; gap:1.5rem; margin-bottom:1.5rem; flex-wrap:wrap;">
+          <img src="assets/images/jusc_logo1.png" alt="JUSC Logo" style="height:70px; object-fit:contain;">
+          <div>
+            <div class="bd-caption-box">ROBOTICS, EMBEDDED SYSTEMS &amp; EXHIBITIONS</div>
+            <h2 style="font-family: var(--font-bd-title); font-size: 1.6rem; color: var(--bd-ink); margin: 0.2rem 0;">
+              Jadavpur University Science Club (JUSC)
+            </h2>
+          </div>
+        </div>
+
+        <p>
+          As an active leader at the Jadavpur University Science Club, I spearheaded hands-on robotics workshops, 
+          hardware development bootcamps, and competitive science exhibitions. We mentored students in sensor interfacing, 
+          autonomous navigation, microcontroller programming (AVR/Arduino/ARM), and rapid prototyping.
+        </p>
+
+        <!-- Project Screenshots Gallery -->
+        <h3 style="font-family: var(--font-bd-title); font-size: 1.3rem; color: var(--bd-green-gaul); margin: 1.5rem 0 0.75rem;">
+          Activities &amp; Project Exhibits:
+        </h3>
+        <div class="comic-modal-gallery">
+          <div class="comic-modal-img-card">
+            <img src="assets/images/Capture5.PNG" alt="JUSC Workshop">
+            <small>Autonomous Line-Follower &amp; Maze Solvers</small>
+          </div>
+          <div class="comic-modal-img-card">
+            <img src="assets/images/Capture6.PNG" alt="JUSC Hardware Showcase">
+            <small>Sensor Interfacing &amp; Circuit Design</small>
+          </div>
+          <div class="comic-modal-img-card">
+            <img src="assets/images/Capture7.PNG" alt="JUSC Project Demo">
+            <small>Robo-Soccer Competition Vehicles</small>
+          </div>
+          <div class="comic-modal-img-card">
+            <img src="assets/images/Capture8.PNG" alt="JUSC Science Fair">
+            <small>Annual University Science Fair Exhibition</small>
+          </div>
+        </div>
+
+        <h3 style="font-family: var(--font-bd-title); font-size: 1.3rem; color: var(--bd-ink); margin-top: 1.5rem;">
+          Key Contributions:
+        </h3>
+        <ul style="padding-left: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem;">
+          <li>Conducted multi-day bootcamps for freshman and sophomore engineering undergraduates.</li>
+          <li>Organized inter-college robotics competitions featuring autonomous path planning and obstacle clearance.</li>
+          <li>Authored technical tutorials on PWM motor drives, infrared array calibration, and PID control loops.</li>
+        </ul>
+
+
+      </div>
+
+      <div class="comic-modal-footer">
+        <button class="bd-btn bd-btn-red bd-btn-sm" data-modal-close>
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =================================================================
+       OVERLAY MODAL 5: Dedicated Portfolio - BlenSor Tool
+       ================================================================= -->
+  <div class="comic-modal-backdrop" id="portfolio-modal-blensor" role="dialog" aria-modal="true">
+    <div class="comic-modal-window">
+      <div class="comic-modal-header">
+        <h3 class="comic-modal-title">📡 Dedicated Webpage: BlenSor LiDAR Simulator</h3>
+        <button class="comic-modal-close-btn" aria-label="Close modal">✕</button>
+      </div>
+
+      <div class="comic-modal-body">
+        <div style="display:flex; align-items:center; gap:1.5rem; margin-bottom:1.5rem; flex-wrap:wrap;">
+          <img src="assets/images/blensorlogo.PNG" alt="BlenSor Logo" style="height:70px; object-fit:contain;">
+          <div>
+            <div class="bd-caption-box">SENSOR SIMULATION &amp; BENCHMARKING</div>
+            <h2 style="font-family: var(--font-bd-title); font-size: 1.6rem; color: var(--bd-ink); margin: 0.2rem 0;">
+              BlenSor LiDAR Simulator Integration
+            </h2>
+          </div>
+        </div>
+
+        <p>
+          BlenSor (Blender Sensor Simulation) enables high-fidelity simulation of physical range sensors such as LiDAR, 
+          Kinect, and stereo cameras within the Blender ray-tracing engine. In our research, we configured BlenSor to simulate 
+          a rotating 32-channel Velodyne HDL-32E sensor across diverse synthetic urban and indoor environments.
+        </p>
+
+        <!-- Project Screenshots Gallery -->
+        <h3 style="font-family: var(--font-bd-title); font-size: 1.3rem; color: var(--bd-red); margin: 1.5rem 0 0.75rem;">
+          Simulation Scenes &amp; Ray Traces:
+        </h3>
+        <div class="comic-modal-gallery">
+          <div class="comic-modal-img-card">
+            <img src="assets/images/blensor1.PNG" alt="BlenSor LiDAR Ray Simulation">
+            <small>32-Channel Spinning Laser Ray Traces</small>
+          </div>
+          <div class="comic-modal-img-card">
+            <img src="assets/images/blensor2.PNG" alt="BlenSor 3D Mesh Scene">
+            <small>Calibrated Synthetic Geometric Environment</small>
+          </div>
+          <div class="comic-modal-img-card">
+            <img src="assets/images/blensor3.PNG" alt="Point Cloud Generation">
+            <small>Ground-Truth Labeled Point Cloud Output</small>
+          </div>
+        </div>
+
+        <h3 style="font-family: var(--font-bd-title); font-size: 1.3rem; color: var(--bd-ink); margin-top: 1.5rem;">
+          Research Integration:
+        </h3>
+        <ul style="padding-left: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem;">
+          <li>Generated 32 benchmark datasets featuring complex curved and planar surfaces with ground-truth semantic segmentation masks.</li>
+          <li>Modeled realistic distance-dependent Gaussian noise and surface reflectance properties.</li>
+          <li>Enabled benchmark comparisons against PointNet and PointNet++ without expensive hardware acquisition.</li>
+        </ul>
+      </div>
+
+      <div class="comic-modal-footer">
+        <a href="https://www.blensor.org/" target="_blank" rel="noopener noreferrer" class="bd-btn bd-btn-yellow bd-btn-sm">
+          <span>🌐</span> Official BlenSor Software
+        </a>
+        <button class="bd-btn bd-btn-red bd-btn-sm" data-modal-close>
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =================================================================
+       OVERLAY MODAL 6: Research Poster Viewer (Outcome Section Cut Out)
+       ================================================================= -->
+  <div class="comic-modal-backdrop" id="poster-modal" role="dialog" aria-modal="true">
+    <div class="comic-modal-window" style="max-width: 1100px;">
+      <div class="comic-modal-header">
+        <h3 class="comic-modal-title">🖼️ Research Architecture Poster (Arena &amp; Literature)</h3>
+        <button class="comic-modal-close-btn" aria-label="Close modal">✕</button>
+      </div>
+
+      <div class="comic-modal-body" style="text-align:center;">
+        <div class="bd-caption-box">RESEARCH AGENDA · TIER 1 &amp; TIER 2</div>
+        <p style="color:var(--bd-ink-muted); margin-bottom:1rem; font-size:1.05rem;">
+          Illustrating the operational arena (Driving, Robotics, Aviation, Climate) and literature axes (Multi-Agent RL, Causality, Continual Learning).
+        </p>
+
+        <div style="background:var(--bd-bg-secondary); border:var(--bd-border-mid); border-radius:var(--radius-bd-sm); padding:1rem; overflow:auto; max-height:70vh;">
+          <img src="assets/images/research_poster_v2_no_outcome.png" alt="Research Architecture Poster" style="width:100%; border-radius:var(--radius-bd-sm); margin:0 auto;">
+        </div>
+      </div>
+
+      <div class="comic-modal-footer">
+        <button class="bd-btn bd-btn-red bd-btn-sm" data-modal-close>
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+    <!-- =================================================================
+       OVERLAY MODAL: Standalone Lightbox Magnifier Modal
+       ================================================================= -->
+  <div class="bd-lightbox-backdrop" id="image-lightbox-modal" role="dialog" aria-modal="true" aria-label="Magnified Image Inspection">
+    <div class="bd-lightbox-window">
+      <div class="bd-lightbox-header">
+        <h3 class="bd-lightbox-title" id="lightbox-title">�� Magnified Panel View</h3>
+        <button class="comic-modal-close-btn" onclick="closeImageLightbox()" aria-label="Close Lightbox">✕</button>
+      </div>
+      <div class="bd-lightbox-body">
+        <div class="bd-lightbox-img-wrap">
+          <img id="lightbox-img" src="" alt="Magnified Image">
+        </div>
+        <div id="lightbox-desc" class="bd-lightbox-caption"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Modules -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/characters.js"></script>
+</body>
+</html>
