@@ -156,8 +156,8 @@ function initLightbox() {
       const img = card.querySelector('img');
       const small = card.querySelector('small');
       if (img) {
-        const title = img.getAttribute('alt') || 'Magnified Technical View';
-        const desc = small ? small.textContent.trim() : (img.getAttribute('alt') || '');
+        const title = card.getAttribute('data-title') || img.getAttribute('alt') || 'Magnified Technical View';
+        const desc = card.getAttribute('data-desc') || (small ? small.textContent.trim() : (img.getAttribute('alt') || ''));
         openImageLightbox(img.src, title, desc);
       }
     });
